@@ -5,4 +5,5 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: pytest test/test_memory_calculator.py
+      - run: pip install pytest
+      - run: pytest
