@@ -1,3 +1,6 @@
+
+from .test.test_memory_calculator import MemoryCalculator
+
 class MemoryCalculator():
   
   def __init__(self, save_last_result=False):
